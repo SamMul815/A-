@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DFramework">
+      <UniqueIdentifier>{a28ce737-33f5-4ca2-bb32-6d953aeb6107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\Manager">
+      <UniqueIdentifier>{805d8d21-8ca3-4446-95c9-e3dd7cc7a99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\singletonBase">
+      <UniqueIdentifier>{f1736a4e-f76e-412e-8c03-9f6162878bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hellZone">
+      <UniqueIdentifier>{b3e89a4b-f8b9-415d-8d12-bce85cc1b5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\UTIL">
+      <UniqueIdentifier>{7eaac033-8d85-4b36-893a-7611455dc468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\image">
+      <UniqueIdentifier>{f9f72b2a-83a9-4979-89cc-d59b8d950adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\progressBar">
+      <UniqueIdentifier>{57dca2a3-0f78-45e4-bfeb-f78c6d53c55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\txtData">
+      <UniqueIdentifier>{d68163be-71ca-41ec-baed-d89403fd1a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\timer">
+      <UniqueIdentifier>{446e12b9-f7fc-4352-8349-bd5719393a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\animation">
+      <UniqueIdentifier>{888d7d70-5113-43d6-977f-9a1a2945ed6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\effect">
+      <UniqueIdentifier>{ec39c52c-a036-4d73-aae6-252aa1e219a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\camera">
+      <UniqueIdentifier>{68726450-1017-46dc-8239-2937b1d2f879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\action">
+      <UniqueIdentifier>{fd34b629-9f4f-4dea-a81e-f26c539471fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\button">
+      <UniqueIdentifier>{a43cae04-4979-4fbf-8908-51c2bc6981f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hellZone\Cube">
+      <UniqueIdentifier>{7ba487c0-d3ad-430c-aab2-69bffeae1980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hellZone\Camera">
+      <UniqueIdentifier>{8a8f9b40-8e08-495d-84ce-af592c7ea4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hellZone\Ground">
+      <UniqueIdentifier>{b0d142ad-f0ec-4510-81da-e75a8fe87395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hellZone\AStar">
+      <UniqueIdentifier>{cd220ca3-9dae-49a6-86ff-738308d18bd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DFramework\singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="hellZone.h">
+      <Filter>hellZone</Filter>
+    </ClInclude>
+    <ClInclude Include="XinputManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>2DFramework\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2DFramework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="actionManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>2DFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cCube.h">
+      <Filter>hellZone\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="cVector3.h">
+      <Filter>hellZone</Filter>
+    </ClInclude>
+    <ClInclude Include="cMatrix.h">
+      <Filter>hellZone</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>hellZone\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cGround.h">
+      <Filter>hellZone\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="cAstar.h">
+      <Filter>hellZone\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="cNode.h">
+      <Filter>hellZone\AStar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="hellZone.cpp">
+      <Filter>hellZone</Filter>
+    </ClCompile>
+    <ClCompile Include="XinputManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>2DFramework\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2DFramework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="actionManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>2DFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cCube.cpp">
+      <Filter>hellZone\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="cVector3.cpp">
+      <Filter>hellZone</Filter>
+    </ClCompile>
+    <ClCompile Include="cMatrix.cpp">
+      <Filter>hellZone</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>hellZone\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cGround.cpp">
+      <Filter>hellZone\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="cAstar.cpp">
+      <Filter>hellZone\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="cNode.cpp">
+      <Filter>hellZone\AStar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="151125_HW.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="151125_HW.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
